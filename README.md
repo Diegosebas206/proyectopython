@@ -74,7 +74,7 @@ El objeto String se utiliza para representar y manipular una secuencia de caract
 
 ejemplo:  
 ```Python
-print("Hola, me llamo Diego)
+print("Hola, me llamo Diego")
 ```
 ## Casting en Python 📃
 Convierte un tipo de datos a otro, pueden ser:  
@@ -91,30 +91,90 @@ print(a)       # 39.99
 print(type(a)) # <class 'float'>
 ```
 ## List 📃
+Una lista es una estructura de datos y un tipo de dato en python con características especiales. Lo especial de las listas en Python es que nos permiten almacenar cualquier tipo de valor como enteros, cadenas y hasta otras funciones.
+
+ejemplo:
 ```Python
+lista = [1, 2.5, 'Diego', [5,6] ,4]
 ```
 ## Tuple 📃
+Un tuple es una colección de datos cuyo orden es inalterable, o sea, son elementos ordenados en una secuencia específica y que posee importancia. En Python, los tuples se escriben entre paréntesis.
+
+ejemplo:
 ```Python
+tuple_frutas = ("manzana", "plátano", "cereza")  
+tuple_frutas[3] = "piña" #Esto creará un error  
+print(tuple_frutas)
 ```
 ## Dictionary 📃
+Un Diccionario es una estructura de datos y un tipo de dato en Python con características especiales que nos permite almacenar cualquier tipo de valor como enteros, cadenas, listas e incluso otras funciones. Estos diccionarios nos permiten además identificar cada elemento por una clave (Key).
+
+ejemplo:
 ```Python
+diccionario = {'nombre' : 'Diego', 'edad' : 21, 'cursos': ['Python'] }
+
+print diccionario['nombre'] #Diego  
+print diccionario['edad']#21  
+print diccionario['cursos'] #['Python']
 ```
 # Tomando decisiones 📜
 ## Sentencia if 📃
+La estructura de control if ... permite que un programa ejecute unas instrucciones cuando se cumplan una condición. En inglés "if" significa "si" (condición).
+
+ejemplo:
 ```Python
-```
-```Python 
+m = 10  
+if m = 10  
+    print('hola')
+[salida] = hola
 ```
 ## Ciclo For 📃
+En general, un bucle es una estructura de control que repite un bloque de instrucciones. Un bucle for es un bucle que repite el bloque de instrucciones un número prederminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo del bucle y cada repetición se suele llamar iteración.
 ```Python
+print("Comienzo")  
+for i in [0, 1, 2]:  
+    print("Hola ", end="")  
+print()  
+print("Final")
 ```
 ## Ciclo While 📃
+Un bucle while permite repetir la ejecución de un grupo de instrucciones mientras se cumpla una condición (es decir, mientras la condición tenga el valor True).
+
+ejemplo:
 ```Python
+i = 1  
+while i <= 3:  
+    print(i)  
+    i += 1  
+print("Programa terminado")
   ```
 ## Break 📃:  
+En Python, la instrucción break le proporciona la oportunidad de cerrar un bucle cuando se activa una condición externa. Debe poner la instrucción break dentro del bloque de código bajo la instrucción de su bucle, generalmente después de una instrucción if condicional.
+
+ejemplo:
 ```Python
+number = 0
+
+for number in range(10):  
+    if number == 5:  
+        break    # break here
+
+    print('Number is ' + str(number))
+
+print('Out of loop')
 ```
 ## Continue 📃
+La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. Es decir, la iteración actual del bucle se interrumpirá, pero el programa volverá a la parte superior del bucle.
 
+ejemplo:
 ```Python
+number = 0
+
+for number in range(10):  
+    if number == 5:  
+        continue    # continue here
+
+    print('Number is ' + str(number))
+
+print('Out of loop')
 ```
