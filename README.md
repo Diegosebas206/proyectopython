@@ -70,10 +70,25 @@ a = 9.2
 num = 10e2
 ```
 ## String 📃
+El objeto String se utiliza para representar y manipular una secuencia de caracteres que representan un texto.
+
+ejemplo:  
 ```Python
+print("Hola, me llamo Diego)
 ```
 ## Casting en Python 📃
+Convierte un tipo de datos a otro, pueden ser:  
+int  
+float  
+string
+
+ejemplo:
 ```Python
+num1 = 34   # <class 'int'>  
+num2 = 5.99 # <class 'float'>  
+a = a + b  
+print(a)       # 39.99 
+print(type(a)) # <class 'float'>
 ```
 ## List 📃
 ```Python
