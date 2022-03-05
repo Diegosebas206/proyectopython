@@ -161,7 +161,7 @@ for number in range(10):
 
     print('Number is ' + str(number))
 
-print('Out of loop')
+print('Fuera del loop')
 ```
 ## Continue 📃
 La instrucción continue da la opción de omitir la parte de un bucle en la que se activa una condición externa, pero continuar para completar el resto del bucle. Es decir, la iteración actual del bucle se interrumpirá, pero el programa volverá a la parte superior del bucle.
@@ -176,5 +176,5 @@ for number in range(10):
 
     print('Number is ' + str(number))
 
-print('Out of loop')
+print('Fuera del loop')
 ```
