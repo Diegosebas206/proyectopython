@@ -103,7 +103,6 @@ Un tuple es una colección de datos cuyo orden es inalterable, o sea, son elemen
 ejemplo:
 ```Python
 tuple_frutas = ("manzana", "plátano", "cereza")  
-tuple_frutas[3] = "piña" #Esto creará un error  
 print(tuple_frutas)
 ```
 ## Dictionary 📃
