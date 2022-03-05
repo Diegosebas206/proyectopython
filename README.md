@@ -113,9 +113,9 @@ ejemplo:
 ```Python
 diccionario = {'nombre' : 'Diego', 'edad' : 21, 'cursos': ['Python'] }
 
-print diccionario['nombre'] #Diego  
-print diccionario['edad']#21  
-print diccionario['cursos'] #['Python']
+print (diccionario['nombre']) #Diego  
+print (diccionario['edad'])#21  
+print (diccionario['cursos']) #['Python']
 ```
 # Tomando decisiones 📜
 ## Sentencia if 📃
